@@ -1,4 +1,10 @@
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question" value="<%= params[:question] %>" placeholder='test2112121'>
-  <input type="submit" value="Ask!">
-</form>
+<div class="row">
+  <div class="col">
+    <form action="/answer" data-turbo="false">
+    <h1>Stupid Coach</h1>
+    <p>Ask your coach anything:</p>
+      <input type="text" name="question" value="<%= params[:question] %>" placeholder='test2112121' type="text" class="form-control">
+      <input type="submit" value="Ask!" button type="button" class="btn btn-primary" class="col-auto" class="btn btn-primary">
+    </form>
+  </div>
+</div>
